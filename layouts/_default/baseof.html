@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="{{ "/" | relURL }}">
+                        <i class="fas fa-shield-alt"></i>
+                        {{ .Site.Title }}
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    {{ range .Site.Menus.main }}
+                    <li class="nav-item">
+                        <a href="{{ .URL | relURL }}" class="nav-link">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; {{ now.Year }} {{ .Site.Title }}. Built with Hugo for educational purposes.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>

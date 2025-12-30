@@ -1,0 +1,40 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'IAW301 - Web Application Security Labs'
+defaultContentLanguage = 'en'
+
+[params]
+  description = 'IAW301 Spring 2026 - Web Application Security Lab Exercises'
+  author = 'IAW301 Spring 2026'
+  course = 'IAW301'
+  semester = 'Spring 2026'
+  favicon = '/favicon.ico'
+  logo = '/images/logo.png'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'All Labs'
+    url = '/labs/'
+    weight = 20
+  [[menu.main]]
+    name = 'About Course'
+    url = '/about/'
+    weight = 30
+
+# Configuration for sections
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    tabWidth = 4

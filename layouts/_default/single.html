@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="container">
+    <article class="article">
+        <header class="article-header">
+            <h1 class="article-title">{{ .Title }}</h1>
+            <div class="article-meta">
+                <time class="article-date">{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.description }}
+                <p class="article-description">{{ .Params.description }}</p>
+                {{ end }}
+            </div>
+        </header>
+        
+        <div class="article-content">
+            {{ .Content }}
+        </div>
+        
+        <nav class="article-nav">
+            {{ if .PrevInSection }}
+            <a href="{{ .PrevInSection.Permalink }}" class="nav-prev">
+                <i class="fas fa-arrow-left"></i> {{ .PrevInSection.Title }}
+            </a>
+            {{ end }}
+            {{ if .NextInSection }}
+            <a href="{{ .NextInSection.Permalink }}" class="nav-next">
+                {{ .NextInSection.Title }} <i class="fas fa-arrow-right"></i>
+            </a>
+            {{ end }}
+        </div>
+    </article>
+</div>
+{{ end }}

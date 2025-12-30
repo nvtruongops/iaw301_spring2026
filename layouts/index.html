@@ -1,0 +1,71 @@
+{{ define "main" }}
+<div class="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="course-badge">
+                <span class="course-code">{{ .Site.Params.course }}</span>
+                <span class="semester">{{ .Site.Params.semester }}</span>
+            </div>
+            <h1 class="hero-title">{{ .Title }}</h1>
+            <p class="hero-subtitle">{{ .Site.Params.description }}</p>
+            <div class="hero-actions">
+                <a href="/labs/" class="btn btn-primary">
+                    <i class="fas fa-flask"></i> View All 19 Labs
+                </a>
+                <a href="https://github.com/nvtruongops/iaw301_spring2026" class="btn btn-secondary">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content">
+        {{ .Content }}
+    </div>
+    
+    <div class="features">
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>OWASP Top 10</h3>
+                <p>Learn about the most critical web application security risks</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bug"></i>
+                </div>
+                <h3>Vulnerability Analysis</h3>
+                <p>Hands-on practice with real-world security vulnerabilities</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Secure Coding</h3>
+                <p>Learn defensive programming and mitigation techniques</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">19</div>
+                <div class="stat-label">Lab Exercises</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Vulnerability Types</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Hands-on Practice</div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

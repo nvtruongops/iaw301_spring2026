@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="container">
+    <header class="page-header">
+        <h1 class="page-title">{{ .Title }}</h1>
+        {{ if .Params.description }}
+        <p class="page-description">{{ .Params.description }}</p>
+        {{ end }}
+    </header>
+    
+    <div class="page-content">
+        {{ .Content }}
+    </div>
+    
+    {{ if .Pages }}
+    <div class="lab-grid">
+        {{ range .Pages }}
+        <div class="lab-card">
+            <div class="lab-card-header">
+                <h3 class="lab-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>
+            </div>
+            <div class="lab-card-body">
+                {{ if .Params.description }}
+                <p class="lab-description">{{ .Params.description }}</p>
+                {{ end }}
+                <div class="lab-meta">
+                    <span class="lab-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}
