@@ -1,18 +1,19 @@
-# IAW301 - Web Application Security Labs
-## Spring 2026
+# Web Security Learning Notes
 
-A comprehensive collection of web application security lab exercises for the IAW301 course, built with Hugo static site generator.
+Personal blog documenting my learning journey in Web Application Security, built with Hugo static site generator.
 
-## Course Overview
+## About This Project
 
-IAW301 is a hands-on web application security course that covers the most critical security vulnerabilities found in modern web applications. This repository contains all 19 lab exercises designed to provide practical experience with:
+This is a personal learning blog where I share my notes, experiences, and solutions from studying Web Application Security. The content is based on my coursework at **FPT University**.
 
-- Vulnerability identification and exploitation
-- Security testing methodologies  
-- Defensive programming practices
-- Real-world attack scenarios
+## Source & Credits
 
-## Lab Exercises (19 Total)
+- **Course**: IAW301 - Web Application Security
+- **Institution**: FPT University
+- **Learning Platform**: [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+- **Reference**: [OWASP Top 10](https://owasp.org/www-project-top-ten/)
+
+## Lab Notes (19 Total)
 
 ### Authentication & Access Control
 - **Lab 1**: OWASP TOP 10 Overview
@@ -41,59 +42,46 @@ IAW301 is a hands-on web application security course that covers the most critic
 - **Lab 18**: Path Traversal
 - **Lab 19**: File Upload Vulnerabilities
 
-## Structure
+## Project Structure
 
 ```
 ├── content/
-│   ├── _index.md          # Course homepage
-│   └── labs/              # All lab exercises
-│       ├── _index.md      # Labs overview
-│       ├── lab1.md        # OWASP TOP 10
-│       ├── lab2.md        # Information Disclosure
-│       └── ...            # Labs 3-19
+│   ├── _index.md          # Homepage
+│   ├── about/             # About page
+│   ├── resources/         # Learning resources
+│   └── labs/              # All lab notes
 ├── layouts/               # Hugo templates
-├── static/css/           # Styling
-├── hugo.toml             # Hugo configuration
-└── README.md             # This file
+├── static/css/            # Styling
+├── hugo.toml              # Hugo configuration
+└── README.md              # This file
 ```
 
-## Getting Started
+## Running Locally
 
 ### Prerequisites
-- [Hugo](https://gohugo.io/installation/) (any version)
+- [Hugo](https://gohugo.io/installation/)
 - Git
 
-### Running Locally
-1. Clone this repository
-2. Navigate to the project directory
-3. Run Hugo development server:
-   ```bash
-   hugo server -D
-   ```
-4. Open http://localhost:1313 in your browser
+### Development
+```bash
+git clone https://github.com/nvtruongops/iaw301_spring2026.git
+cd iaw301_spring2026
+hugo server -D
+```
+Open http://localhost:1313
 
-### Building for Production
+### Build
 ```bash
 hugo --minify
 ```
 
-## Course Information
+## Disclaimer
 
-- **Course Code**: IAW301
-- **Semester**: Spring 2026
-- **Focus**: Web Application Security
-- **Format**: Hands-on laboratory exercises
-- **Total Labs**: 19
-
-## Learning Objectives
-
-Upon completion of this course, students will be able to:
-1. Identify common web application vulnerabilities
-2. Perform security assessments of web applications
-3. Exploit vulnerabilities in controlled environments
-4. Implement appropriate security controls and countermeasures
-5. Apply secure coding practices
+- This is a **personal learning blog**, not official course material
+- Content represents my own understanding and notes
+- All security testing should be done **ethically and legally**
+- Only test on systems you have **permission** to test
 
 ## License
 
-This project is for educational purposes as part of the IAW301 course.
+This project is for educational purposes. Course materials are credited to FPT University.
