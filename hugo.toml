@@ -1,4 +1,4 @@
-baseURL = 'https://nvtruongops.github.io/iaw301_spring2026/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'IAW301 - Web Application Security Labs'
 defaultContentLanguage = 'en'
@@ -24,6 +24,10 @@ defaultContentLanguage = 'en'
     name = 'About Course'
     url = '/about/'
     weight = 30
+  [[menu.main]]
+    name = 'Resources'
+    url = '/resources/'
+    weight = 40
 
 # Configuration for sections
 [taxonomies]
