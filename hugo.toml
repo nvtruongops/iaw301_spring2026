@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://nvtruongops.github.io/iaw301_spring2026/'
 languageCode = 'en-us'
 title = 'Web Security Learning Notes'
 defaultContentLanguage = 'en'
