@@ -1,6 +1,7 @@
 ---
 title: "Lab 17 - Race conditions vulnerabilities"
 date: 2025-12-30
+weight: 17
 draft: false
 description: "Race conditions vulnerabilities"
 ---

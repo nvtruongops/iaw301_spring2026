@@ -1,6 +1,7 @@
 ---
 title: "Lab 4 - Authentication Vulnerabilities (multi-factor authentication)"
 date: 2025-12-30
+weight: 4
 draft: false
 description: "Multi-factor authentication vulnerabilities"
 ---

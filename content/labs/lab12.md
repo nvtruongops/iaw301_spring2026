@@ -1,6 +1,7 @@
 ---
 title: "Lab 12 - OS command injection vulnerabilities"
 date: 2025-12-30
+weight: 12
 draft: false
 description: "Operating system command injection vulnerabilities"
 ---

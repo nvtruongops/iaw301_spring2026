@@ -1,6 +1,7 @@
 ---
 title: "Lab 19 - File upload vulnerabilities"
 date: 2025-12-30
+weight: 19
 draft: false
 description: "File upload vulnerabilities"
 ---

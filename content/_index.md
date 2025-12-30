@@ -1,37 +1,30 @@
 ---
-title: "IAW301 - Web Application Security"
+title: "Web Security Learning Notes"
 date: 2025-12-30
 ---
 
-# IAW301 - Web Application Security Labs
-## Spring 2026
+# Web Application Security - Learning Notes
 
-Welcome to the IAW301 Web Application Security course lab exercises. This course covers essential web application security concepts through hands-on laboratory work.
+Welcome to my personal blog documenting my journey learning Web Application Security. Here you'll find my notes, lab solutions, and experiences from practicing various security concepts.
 
-## Course Overview
+## What's Here
 
-This course provides comprehensive coverage of web application security vulnerabilities and defense mechanisms. Students will learn to identify, exploit, and mitigate common security flaws in web applications.
+This blog contains **19 lab exercises** covering essential web security topics that I've worked through and documented for my own reference and to help others learning the same material.
 
-## Lab Exercises
-
-The course includes **19 comprehensive lab exercises** covering:
+## Topics Covered
 
 - **OWASP Top 10 Vulnerabilities**
-- **Authentication & Authorization Flaws**
-- **Injection Attacks (SQL, Command, etc.)**
+- **Authentication & Authorization**
+- **Injection Attacks (SQL, Command)**
 - **Cross-Site Scripting (XSS)**
 - **Server-Side Request Forgery (SSRF)**
 - **File Upload Vulnerabilities**
-- **Race Conditions**
-- **Path Traversal**
+- **Race Conditions & Path Traversal**
 
 ## Getting Started
 
-Visit [All Labs](/labs/) to access the complete list of 19 lab exercises.
+Visit [All Labs](/labs/) to see my complete collection of lab notes and solutions.
 
-## Course Information
+## Disclaimer
 
-- **Course Code**: IAW301
-- **Semester**: Spring 2026
-- **Total Labs**: 19
-- **Focus**: Web Application Security
+This is a personal learning blog. All content represents my own understanding and notes. Always practice security testing ethically and only on systems you have permission to test.

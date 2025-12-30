@@ -1,6 +1,7 @@
 ---
 title: "Lab 8 - Access control vulnerabilities - OAuth2.0"
 date: 2025-12-30
+weight: 8
 draft: false
 description: "OAuth 2.0 vulnerabilities"
 ---

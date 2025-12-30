@@ -1,6 +1,7 @@
 ---
 title: "Lab 11 - Blind SQL injection - Error-based SQL Injection"
 date: 2025-12-30
+weight: 11
 draft: false
 description: "Error-based blind SQL injection"
 ---

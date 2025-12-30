@@ -1,6 +1,7 @@
 ---
 title: "Lab 18 - Path traversal vulnerabilities"
 date: 2025-12-30
+weight: 18
 draft: false
 description: "Path traversal vulnerabilities"
 ---

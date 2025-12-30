@@ -1,6 +1,7 @@
 ---
 title: "Lab 16 - Server-side request forgery (SSRF)"
 date: 2025-12-30
+weight: 16
 draft: false
 description: "Server-side request forgery vulnerabilities"
 ---

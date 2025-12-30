@@ -1,6 +1,7 @@
 ---
 title: "Lab 14 - Cross-site scripting - Reflected"
 date: 2025-12-30
+weight: 14
 draft: false
 description: "Reflected Cross-site scripting vulnerabilities"
 ---

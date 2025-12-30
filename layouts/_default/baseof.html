@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -15,7 +15,6 @@
             <div class="container">
                 <div class="nav-brand">
                     <a href="{{ "/" | relURL }}">
-                        <i class="fas fa-shield-alt"></i>
                         {{ .Site.Title }}
                     </a>
                 </div>
@@ -36,7 +35,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; {{ now.Year }} {{ .Site.Title }}. Built with Hugo for educational purposes.</p>
+            <p>&copy; {{ now.Year }} {{ .Site.Title }}. Personal learning blog built with Hugo.</p>
         </div>
     </footer>
 

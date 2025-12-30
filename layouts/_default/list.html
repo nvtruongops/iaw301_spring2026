@@ -12,24 +12,29 @@
     </div>
     
     {{ if .Pages }}
-    <div class="lab-grid">
-        {{ range .Pages }}
-        <div class="lab-card">
-            <div class="lab-card-header">
-                <h3 class="lab-title">
-                    <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h3>
-            </div>
-            <div class="lab-card-body">
-                {{ if .Params.description }}
-                <p class="lab-description">{{ .Params.description }}</p>
-                {{ end }}
-                <div class="lab-meta">
-                    <span class="lab-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-                </div>
-            </div>
+    <div class="lab-list">
+        <h2>Lab Exercises</h2>
+        <div class="lab-grid">
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab1" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">1</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab2" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">2</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab3" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">3</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab4" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">4</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab5" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">5</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab6" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">6</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab7" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">7</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab8" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">8</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab9" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">9</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab10" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">10</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab11" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">11</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab12" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">12</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab13" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">13</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab14" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">14</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab15" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">15</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab16" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">16</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab17" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">17</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab18" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">18</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
+            {{ range .Pages }}{{ if eq .File.BaseFileName "lab19" }}<a href="{{ .Permalink }}" class="lab-item"><div class="lab-number">19</div><div class="lab-content-preview"><div class="lab-title">{{ .Title }}</div>{{ if .Params.description }}<div class="lab-description">{{ .Params.description }}</div>{{ end }}</div></a>{{ end }}{{ end }}
         </div>
-        {{ end }}
     </div>
     {{ end }}
 </div>

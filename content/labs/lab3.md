@@ -1,6 +1,7 @@
 ---
 title: "Lab 3 - Authentication Vulnerabilities (password-based)"
 date: 2025-12-30
+weight: 3
 draft: false
 description: "Password-based authentication vulnerabilities"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Lab 2 - Information Disclosure"
 date: 2025-12-30
+weight: 2
 draft: false
 description: "Learn about Information Disclosure vulnerabilities"
 ---

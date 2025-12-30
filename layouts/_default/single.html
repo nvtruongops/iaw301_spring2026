@@ -1,32 +1,47 @@
 {{ define "main" }}
 <div class="container">
     <article class="article">
-        <header class="article-header">
-            <h1 class="article-title">{{ .Title }}</h1>
-            <div class="article-meta">
-                <time class="article-date">{{ .Date.Format "January 2, 2006" }}</time>
-                {{ if .Params.description }}
-                <p class="article-description">{{ .Params.description }}</p>
-                {{ end }}
+        {{ if .Params.toc }}
+        <div class="lab-with-toc">
+            <aside class="toc-sidebar">
+                <div class="toc-box">
+                    <h3>Table of Contents</h3>
+                    {{ .TableOfContents }}
+                </div>
+            </aside>
+            <div class="article-content">
+                {{ .Content }}
             </div>
-        </header>
-        
+        </div>
+        {{ else }}
         <div class="article-content">
             {{ .Content }}
         </div>
+        {{ end }}
         
         <nav class="article-nav">
-            {{ if .PrevInSection }}
-            <a href="{{ .PrevInSection.Permalink }}" class="nav-prev">
-                <i class="fas fa-arrow-left"></i> {{ .PrevInSection.Title }}
-            </a>
+            {{- $pages := .CurrentSection.Pages.ByWeight -}}
+            {{- $currentWeight := .Params.weight | default 0 -}}
+            {{- $prev := false -}}
+            {{- $next := false -}}
+            {{- range $pages -}}
+                {{- $w := .Params.weight | default 0 -}}
+                {{- if eq $w (sub $currentWeight 1) -}}
+                    {{- $prev = . -}}
+                {{- end -}}
+                {{- if eq $w (add $currentWeight 1) -}}
+                    {{- $next = . -}}
+                {{- end -}}
+            {{- end -}}
+            {{ if $prev }}
+            <a href="{{ $prev.Permalink }}" class="nav-prev">← {{ $prev.Title }}</a>
+            {{ else }}
+            <span></span>
             {{ end }}
-            {{ if .NextInSection }}
-            <a href="{{ .NextInSection.Permalink }}" class="nav-next">
-                {{ .NextInSection.Title }} <i class="fas fa-arrow-right"></i>
-            </a>
+            {{ if $next }}
+            <a href="{{ $next.Permalink }}" class="nav-next">{{ $next.Title }} →</a>
             {{ end }}
-        </div>
+        </nav>
     </article>
 </div>
 {{ end }}

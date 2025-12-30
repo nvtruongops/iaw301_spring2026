@@ -1,6 +1,7 @@
 ---
 title: "Lab 13 - Blind OS command injection vulnerabilities"
 date: 2025-12-30
+weight: 13
 draft: false
 description: "Blind OS command injection vulnerabilities"
 ---

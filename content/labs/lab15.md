@@ -1,6 +1,7 @@
 ---
 title: "Lab 15 - Cross-site scripting - Stored"
 date: 2025-12-30
+weight: 15
 draft: false
 description: "Stored Cross-site scripting vulnerabilities"
 ---

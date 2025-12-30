@@ -1,6 +1,7 @@
 ---
 title: "Lab 10 - Blind SQL injection - Time-based SQL Injection"
 date: 2025-12-30
+weight: 10
 draft: false
 description: "Time-based blind SQL injection"
 ---

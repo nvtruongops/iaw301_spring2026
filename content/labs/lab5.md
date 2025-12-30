@@ -1,6 +1,7 @@
 ---
 title: "Lab 5 - Authentication Vulnerabilities (other authentication mechanisms)"
 date: 2025-12-30
+weight: 5
 draft: false
 description: "Vulnerabilities in other authentication mechanisms"
 ---

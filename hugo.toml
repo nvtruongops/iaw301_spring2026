@@ -1,15 +1,13 @@
 baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
-title = 'IAW301 - Web Application Security Labs'
+title = 'Web Security Learning Notes'
 defaultContentLanguage = 'en'
 
 [params]
-  description = 'IAW301 Spring 2026 - Web Application Security Lab Exercises'
-  author = 'IAW301 Spring 2026'
-  course = 'IAW301'
-  semester = 'Spring 2026'
-  favicon = '/favicon.ico'
-  logo = '/images/logo.png'
+  description = 'Personal notes and experiences from learning Web Application Security'
+  author = 'Security Learner'
+  course = 'Web Security'
+  semester = '2025-2026'
 
 [menu]
   [[menu.main]]
@@ -17,11 +15,11 @@ defaultContentLanguage = 'en'
     url = '/'
     weight = 10
   [[menu.main]]
-    name = 'All Labs'
+    name = 'Lab Notes'
     url = '/labs/'
     weight = 20
   [[menu.main]]
-    name = 'About Course'
+    name = 'About'
     url = '/about/'
     weight = 30
   [[menu.main]]
@@ -42,3 +40,7 @@ defaultContentLanguage = 'en'
     style = "github"
     lineNos = true
     tabWidth = 4
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false

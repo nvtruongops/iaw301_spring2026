@@ -1,6 +1,7 @@
 ---
 title: "Lab 7 - Access control vulnerabilities - Privilege escalation"
 date: 2025-12-30
+weight: 7
 draft: false
 description: "Privilege escalation vulnerabilities"
 ---

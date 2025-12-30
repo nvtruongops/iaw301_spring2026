@@ -1,6 +1,7 @@
 ---
 title: "Lab 9 - SQL injection - SQL injection UNION attacks"
 date: 2025-12-30
+weight: 9
 draft: false
 description: "SQL injection attacks using UNION"
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Lab 6 - Access control vulnerabilities - IDOR"
 date: 2025-12-30
+weight: 6
 draft: false
 description: "Insecure Direct Object References vulnerabilities"
 ---
