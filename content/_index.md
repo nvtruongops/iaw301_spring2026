@@ -23,7 +23,7 @@ This blog contains **19 lab exercises** covering essential web security topics t
 
 ## Getting Started
 
-Visit [All Labs](/labs/) to see my complete collection of lab notes and solutions.
+Visit [All Labs]({{< ref "/labs" >}}) to see my complete collection of lab notes and solutions.
 
 ## Disclaimer
 

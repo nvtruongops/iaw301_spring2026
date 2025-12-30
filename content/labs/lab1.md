@@ -13,8 +13,8 @@ toc: true
 The objective of this lab is to explore the dynamics of the OWASP (Open Web Application Security Project) Top 10 list. We aim to understand how it has evolved over the years, why certain vulnerabilities move up in rank, and its real-world implications. Additionally, we will examine regional and industry-specific variations in the prevalence of these vulnerabilities and identify effective strategies for addressing them.
 
 <div class="download-section">
-    <a href="/downloads/lab1/Lab1 OWASP-TOP-10.docx" class="download-btn" download>
-        Download Lab
+    <a href="/iaw301_spring2026/downloads/lab1/Lab1 OWASP-TOP-10.docx" class="download-btn" download>
+        Download Lab 1
     </a>
 </div>
 

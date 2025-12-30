@@ -29,6 +29,52 @@
     --transition: all 0.3s ease;
 }
 
+/* Dark Theme */
+[data-theme="dark"] {
+    --black: #f0f0f0;
+    --dark: #e0e0e0;
+    --text: #d0d0d0;
+    --text-light: #b0b0b0;
+    --border: #404040;
+    --light: #2a2a2a;
+    --white: #1e1e1e;
+    --bg: #121212;
+    --shadow: 0 2px 15px rgba(0,0,0,0.3);
+    --shadow-hover: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    background: var(--light);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text);
+    transition: var(--transition);
+    margin-left: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.theme-toggle:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.theme-text-dark { display: none; }
+.theme-text-light { display: inline; }
+
+[data-theme="dark"] .theme-text-dark { display: inline; }
+[data-theme="dark"] .theme-text-light { display: none; }
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
 /* Base */
 html {
     scroll-behavior: smooth;
@@ -914,6 +960,11 @@ a:hover {
     font-size: 0.95rem;
 }
 
+[data-theme="dark"] .footer {
+    background: #1a1a1a;
+    color: #ffffff;
+}
+
 /* ========================================
    RESPONSIVE DESIGN
    ======================================== */
@@ -1073,4 +1124,36 @@ a:hover {
     .lab-with-toc {
         grid-template-columns: 1fr;
     }
+}
+
+/* ========================================
+   DARK MODE ADJUSTMENTS
+   ======================================== */
+[data-theme="dark"] .hero {
+    background: linear-gradient(135deg, #cc5200 0%, #b33d2e 100%);
+}
+
+[data-theme="dark"] .article-content thead {
+    background: linear-gradient(135deg, #cc5200, #b33d2e);
+}
+
+[data-theme="dark"] .article-content blockquote {
+    background: linear-gradient(135deg, #2a2015 0%, #2a1f15 100%);
+}
+
+[data-theme="dark"] .download-section {
+    background: linear-gradient(135deg, #2a2015 0%, #2a1f15 100%);
+}
+
+[data-theme="dark"] .quiz-coming-soon {
+    background: linear-gradient(135deg, #2a2015 0%, #2a1f15 100%);
+}
+
+[data-theme="dark"] .article-content code {
+    background: #2a2a2a;
+    color: #ff7b54;
+}
+
+[data-theme="dark"] .page-header {
+    background: var(--white);
 }

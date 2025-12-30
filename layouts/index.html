@@ -9,8 +9,8 @@
             <h1 class="hero-title">Web Security Learning Notes</h1>
             <p class="hero-subtitle">{{ .Site.Params.description }}</p>
             <div class="hero-actions">
-                <a href="/labs/" class="btn btn-primary">View All 19 Labs</a>
-                <a href="/about/" class="btn btn-secondary">About This Blog</a>
+                <a href="{{ "labs/" | relURL }}" class="btn btn-primary">View All 19 Labs</a>
+                <a href="{{ "about/" | relURL }}" class="btn btn-secondary">About This Blog</a>
             </div>
         </div>
     </div>

@@ -14,9 +14,13 @@
         <nav class="navbar">
             <div class="container">
                 <div class="nav-brand">
-                    <a href="{{ "/" | relURL }}">
+                    <a href="{{ .Site.BaseURL }}">
                         {{ .Site.Title }}
                     </a>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                        <span class="theme-text-light">Light</span>
+                        <span class="theme-text-dark">Dark</span>
+                    </button>
                 </div>
                 <ul class="nav-menu">
                     {{ range .Site.Menus.main }}
@@ -41,5 +45,25 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script>
+        (function() {
+            const toggle = document.getElementById('theme-toggle');
+            const html = document.documentElement;
+            const stored = localStorage.getItem('theme');
+            
+            if (stored) {
+                html.setAttribute('data-theme', stored);
+            } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                html.setAttribute('data-theme', 'dark');
+            }
+            
+            toggle.addEventListener('click', () => {
+                const current = html.getAttribute('data-theme');
+                const next = current === 'dark' ? 'light' : 'dark';
+                html.setAttribute('data-theme', next);
+                localStorage.setItem('theme', next);
+            });
+        })();
+    </script>
 </body>
 </html>

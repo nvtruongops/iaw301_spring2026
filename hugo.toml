@@ -7,7 +7,7 @@ defaultContentLanguage = 'en'
   description = 'Personal notes and experiences from learning Web Application Security'
   author = 'Security Learner'
   course = 'Web Security'
-  semester = '2025-2026'
+  semester = '2026-2027'
 
 [menu]
   [[menu.main]]
