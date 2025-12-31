@@ -8,6 +8,12 @@ description: "File upload vulnerabilities"
 
 # Lab 19: File upload vulnerabilities
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab19/Lab19 File upload vulnerabilities.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand file upload vulnerabilities
 - Practice exploiting file upload

@@ -8,6 +8,12 @@ description: "Error-based blind SQL injection"
 
 # Lab 11: Blind SQL injection - Error-based SQL Injection
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab11/Lab11 Blind SQL injection - Error SQL Injection.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand Error-based Blind SQL injection
 - Exploit through error messages

@@ -8,6 +8,12 @@ description: "Stored Cross-site scripting vulnerabilities"
 
 # Lab 15: Cross-site scripting - Stored
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab15/Lab15 Cross-site scripting - Stored.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand Stored XSS (Persistent XSS)
 - Practice exploiting stored XSS

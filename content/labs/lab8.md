@@ -8,6 +8,12 @@ description: "OAuth 2.0 vulnerabilities"
 
 # Lab 8: Access control vulnerabilities - OAuth2.0
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab8/Lab8 Access control vulnerabilities - OAuth2.0.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand OAuth 2.0 and its vulnerabilities
 - Practice exploiting OAuth flows

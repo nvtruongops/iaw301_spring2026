@@ -8,6 +8,12 @@ description: "SQL injection attacks using UNION"
 
 # Lab 9: SQL injection - SQL injection UNION attacks
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab9/Lab9 SQL injection - SQL injection UNION attacks.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand SQL injection UNION attacks
 - Practice exploiting UNION-based SQL injection

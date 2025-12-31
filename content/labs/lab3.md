@@ -8,6 +8,12 @@ description: "Password-based authentication vulnerabilities"
 
 # Lab 3: Authentication Vulnerabilities (password-based)
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab3/Lab3 Authentication Vulnerabilities (password-based).docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand password-based authentication vulnerabilities
 - Practice attack techniques

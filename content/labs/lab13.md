@@ -8,6 +8,12 @@ description: "Blind OS command injection vulnerabilities"
 
 # Lab 13: Blind OS command injection vulnerabilities
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab13/Lab13 Blind OS command injection vulnerabilities.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand Blind OS command injection
 - Practice exploitation when there's no direct output

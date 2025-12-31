@@ -8,6 +8,12 @@ description: "Privilege escalation vulnerabilities"
 
 # Lab 7: Access control vulnerabilities - Privilege escalation
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab7/Lab7 Access control vulnerabilities - Privilege escalation.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand privilege escalation vulnerabilities
 - Distinguish between horizontal and vertical privilege escalation

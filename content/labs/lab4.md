@@ -8,6 +8,12 @@ description: "Multi-factor authentication vulnerabilities"
 
 # Lab 4: Authentication Vulnerabilities (multi-factor authentication)
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab4/Lab4 Authentication-Vulnerabilities (multi-factor authentication).docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand MFA vulnerabilities
 - Practice MFA bypass techniques

@@ -8,6 +8,12 @@ description: "Server-side request forgery vulnerabilities"
 
 # Lab 16: Server-side request forgery (SSRF)
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab16/Lab16 Server-side request forgery (SSRF).docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand SSRF vulnerabilities
 - Practice exploiting SSRF

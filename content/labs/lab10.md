@@ -8,6 +8,12 @@ description: "Time-based blind SQL injection"
 
 # Lab 10: Blind SQL injection - Time-based SQL Injection
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab10/Lab10 Blind SQL injection - Timebase SQL Injection.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand Time-based Blind SQL injection
 - Practice exploitation using time delays

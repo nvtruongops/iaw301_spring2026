@@ -8,6 +8,12 @@ description: "Insecure Direct Object References vulnerabilities"
 
 # Lab 6: Access control vulnerabilities - IDOR
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab6/Lab6 Access control vulnerabilities - IDOR.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand IDOR (Insecure Direct Object References) vulnerabilities
 - Practice IDOR exploitation

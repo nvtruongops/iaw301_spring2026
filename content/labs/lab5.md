@@ -8,6 +8,12 @@ description: "Vulnerabilities in other authentication mechanisms"
 
 # Lab 5: Authentication Vulnerabilities (other authentication mechanisms)
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab5/Lab5 Authentication Vulnerabilities (other authentication mechanisms).docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Learn about vulnerabilities in other authentication mechanisms
 - Practice exploiting OAuth, SAML, JWT

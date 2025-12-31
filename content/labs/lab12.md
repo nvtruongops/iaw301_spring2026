@@ -8,6 +8,12 @@ description: "Operating system command injection vulnerabilities"
 
 # Lab 12: OS command injection vulnerabilities
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab12/Lab12 OS command injection vulnerabilities.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand OS command injection
 - Practice exploiting command injection

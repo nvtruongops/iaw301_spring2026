@@ -8,6 +8,12 @@ description: "Path traversal vulnerabilities"
 
 # Lab 18: Path traversal vulnerabilities
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab18/Lab18 Path traversal vulnerabilities.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand path traversal vulnerabilities
 - Practice exploiting directory traversal

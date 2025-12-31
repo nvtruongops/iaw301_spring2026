@@ -8,6 +8,12 @@ description: "Race conditions vulnerabilities"
 
 # Lab 17: Race conditions vulnerabilities
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab17/Lab17 Race conditions vulnerabilities.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand race condition vulnerabilities
 - Practice exploiting race conditions

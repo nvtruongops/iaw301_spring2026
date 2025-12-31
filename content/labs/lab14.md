@@ -8,6 +8,12 @@ description: "Reflected Cross-site scripting vulnerabilities"
 
 # Lab 14: Cross-site scripting - Reflected
 
+<div class="download-section">
+    <a href="/iaw301_spring2026/downloads/lab14/Lab14 Cross-site scripting - Reflected.docx" class="download-btn" download>
+        Download Lab Material
+    </a>
+</div>
+
 ## Objectives
 - Understand Reflected XSS
 - Practice exploiting reflected XSS
