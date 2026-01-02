@@ -29,12 +29,13 @@ Explore the OWASP Top 10 evolution, ranking factors, and real-world security inc
 
 Comparison between 2017, 2021, and 2025 versions:
 
-| Key Change | Description |
-|------------|-------------|
-| **Broken Access Control** | Remains #1, now includes SSRF |
-| **Supply Chain Security** | New - combines Vulnerable Components and Integrity Failures |
-| **Security Misconfiguration** | Rank increased due to Cloud/Kubernetes adoption |
-| **API Insecurity** | New - focuses on API-specific risks |
+| Rank | 2025 | 2021 | 2017 | Key Change |
+|:---:|---|---|---|---|
+| A01 | Broken Access Control | Broken Access Control | Injection | Remains #1, now includes SSRF |
+| A02 | Security Misconfiguration | Cryptographic Failures | Broken Auth | Increased due to Cloud/K8s |
+| A03 | Supply Chain Failures | Injection | Sensitive Data | New - combines Vulnerable Components |
+| A09 | API Insecurity | Security Logging | Components w/ Vulns | New - Zombie/Shadow APIs |
+| A10 | Mishandling Exceptions | SSRF | Insufficient Logging | New - AI fuzzing resilience |
 
 ---
 
@@ -55,10 +56,10 @@ Technology trends driving changes:
 ## Question 3: Real-World Security Incidents
 
 | Incident | Vulnerability | Impact |
-|----------|--------------|--------|
-| **Equifax (2017)** | Vulnerable Components | 147M people, $575M+ |
+|---|---|---|
+| **Equifax (2017)** | Supply Chain (Apache Struts) | 147M records, $575M+ |
 | **Capital One (2019)** | SSRF + Misconfiguration | 100M records, $80M fine |
-| **Optus (2022)** | Broken Access Control + API | 9.8M customers |
+| **Optus (2022)** | API Insecurity + Access Control | 9.8M customers |
 
 ---
 
